@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Product</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+
+	<!-- header -->
+	<div class="medsos">
+		<div>
+			<ul>
+				<br>
+				<li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+				<li><a href="https://www.instagram.com/maulanahfdz"><i class="fab fa-instagram"></i></a></li>
+				<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+			</ul>
+		</div>
+	</div>
+	<header>
+		<div class="container">
+		<h1><a href="index.html"></a>PT. Sukses Mandiri Jaya Abadi</h1>
+		<ul>
+			<li><a href="index.html">HOME</a></li>
+			<li class="active"><a href="product.html">PRODUCT</a></li>
+			<li><a href="biodata.html">ABOUT ME</a></li>
+			<li><a href="login_admin.php">LOG IN</a></li>
+			<li>
+				<label>
+					<input type="checkbox" class="checkbox" id="tombol">
+					<span class="check"></span>
+				</label>
+			</li>
+		</ul>
+		</div>
+	</header>
+
+    <!-- Product -->
+    <section class="product">
+        <div class="container">
+            <h3>PRODUCT</h3>
+            <div class="box">
+                <div class="col-2">
+                    <div class="icon"><img src="img/hsr-wheel-jual-velg-mobil.png" width="150px"  height="150px"></div>
+                    <h4>Velg</h4>
+                </div>
+                <div class="col-2">
+                    <div class="icon"><img src="img/hsr-wheel-jual-ban-mobil.png" width="150px" height="150px"></div>
+                    <h4>Tire</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+	<!-- footer -->
+	<footer>
+		<div class="container">
+			<small> Copyright &copy; 2022 - Maulana Muhammad Hafidz, All Rights Reserved.</small>
+		</div>
+	</footer>
+	<script>
+        var tombol = document.getElementById("tombol");
+
+        tombol.onclick = function(){
+            document.body.classList.toggle("mode-gelap");
+        }
+    </script>
+</body>
+</html>

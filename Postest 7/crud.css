@@ -1,0 +1,44 @@
+form {
+    margin-top: 5%;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+body {
+    display: block;
+    background-image: url(img/bg_isi.png);
+    background-size: cover;
+}
+
+table {
+    margin-top: 20px;
+    margin: auto;
+    width: 40%;
+    height: 20  0%;
+    box-shadow:  2px  5px 10px ;
+    color: white;
+}
+
+input {
+    background: none;
+    color: white;
+    border-color: white;
+}
+
+textarea {
+    background: none;
+    color: white;
+    border-color: white;
+    border: 1 solid;
+}
+
+button {
+    margin-top: 20px;
+    background: none;
+    color: white;
+    border-color: white;
+    width: 50px;
+}
+
+

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>biodata</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+
+	<!-- header -->
+	<div class="medsos">
+		<div>
+			<ul>
+				<br>
+				<li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+				<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+				<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+			</ul>
+		</div>
+	</div>
+	<header>
+		<div class="container">
+		<h1><a href="index.html"></a>PT. Sukses Mandiri Jaya Abadi</h1>
+		<ul>
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="product.html">PRODUCT</a></li>
+			<li class="active"><a href="biodata.html">ABOUT ME</a></li>
+			<li><a href="login_admin.php">LOG IN</a></li>
+			<li>
+				<label>
+					<input type="checkbox" class="checkbox" id="tombol">
+					<span class="check"></span>
+				</label>
+			</li>
+		</ul>
+		</div>
+	</header>
+
+	<!-- biodata -->
+	<section class="biodata">
+		<div class="container">
+			<h3 bgcolor="grey">BIODATA DIRI</h3>
+			<table border="1" cellspacing="0" cellpadding="5`" align="center" width="800" bgcolor="white"> 
+                <tr align="center" bgcolor="gold">
+                    <td width="200" colspan="2">DATA DIRI</td>
+                    <td width="200">FOTO</td> 
+                </tr>
+                <tr>
+                    <td align="center">Nama</td>
+                    <td align="center">Maulana Muhammad Hafidz</td>
+                    <td rowspan="6"><img src="img/pasfoto.jpg" width="200"></td>
+                </tr>
+                <tr>
+                    <td align="center">NIM</td>
+                    <td align="center">2109106070</td>
+                </tr>
+                <tr>
+                    <td align="center">Hobi</td>
+                    <td align="center">Riding</td>
+                </tr>
+                <tr>
+                    <td align="center">Program Studi</td>
+                    <td align="center">Informatika</td>
+                </tr>
+                <tr>
+                    <td align="center">Angkatan</td>
+                    <td align="center">2021</td>
+                </tr>
+                <tr>
+                    <td align="center">Universitas</td>
+                    <td align="center">Universitas Mulawarman</td>
+                </tr>
+            </table>
+		</div>
+	</section>
+
+	<!-- footer -->
+	<footer>
+		<div class="container">
+			<small> Copyright &copy; 2022 - Maulana Muhammad Hafidz, All Rights Reserved.</small>
+		</div>
+	</footer>
+	<script>
+        var tombol = document.getElementById("tombol");
+
+        tombol.onclick = function(){
+            document.body.classList.toggle("mode-gelap");
+        }
+    </script>
+</body>
+</html>
